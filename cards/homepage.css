@@ -1,0 +1,105 @@
+@font-face {
+    font-family: AnandaBlackPersonal;
+    src: url(../fonts/AnandaBlackPersonal.ttf);
+}
+
+
+/* Added new csss */
+.banner {
+    /* background: lightseagreen url(../images/car-banner.jpg) no-repeat; */
+    
+    background-color: #1e2823;
+    background-image: url('../images/tile.png'), url(../img/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center, center center;
+    height: 100vh;
+}
+
+header {
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(0,0,0, .6);
+}
+
+header h3 {
+    letter-spacing: 2px;
+    font-size: 32px;
+    font-family: AnandaBlackPersonal;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 0 16px;
+    color: rgba(255,255,255, 0.7);
+    text-decoration: none;
+    box-sizing: content-box;
+}
+
+nav input {
+    padding: 8px;
+    padding-left: 16px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #ccc;
+
+}
+
+nav a:hover {
+    color: rgba(255,255,255, 0.9);
+    font-weight: 700;
+}
+
+#banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-content-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 8px;
+}
+
+.banner-content-child  h1 {
+    font-size: 4em;
+}
+
+.banner-content-child  h3 {
+    font-size: 2em;
+}
+
+.banner-content-child input {
+    padding: 16px 32px;
+    width: 400px;
+    border-radius: 50px;
+    outline: none;
+
+}
+ 
+#search-bike{
+    border: none;
+}
+
+
+
+
+
+
+
+
